@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: red;
+  background-color: orange;
   border-radius: 3px;
   overflow: hidden;
   padding: 20px 16px;
@@ -24,7 +24,7 @@
   outline: none;
   padding-left: 50px;
   padding-right: 4px;
-  color: #646464;
+  color: orange;
   border: 1px solid #e9e9eb;
   border-radius: 20px;
   background-color: #f7f9fa;
