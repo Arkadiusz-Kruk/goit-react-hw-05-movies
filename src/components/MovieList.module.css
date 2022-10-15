@@ -1,0 +1,33 @@
+.movie__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  list-style-type: none;
+}
+.movie__item {
+  max-width: 216px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 5px 8px 0 rgb(79 90 93 / 8%);
+  transition: scale cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.movie__list img {
+  width: 216px;
+  height: 324px;
+}
+.movie__item:hover {
+  scale: 0.9;
+}
+
+.movie__title {
+  padding: 20px;
+  font-size: 20px;
+}
+.movie__link {
+  text-decoration: none;
+  color: black;
+}
